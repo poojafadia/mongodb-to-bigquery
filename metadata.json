@@ -1,0 +1,13 @@
+{
+    "image": "gcr.io/<your_project_id>/mongo-to-bigquery",
+    "metadata": {
+        "name": "mongo-to-bigquery",
+        "description": "A pipeline to migrate data from MongoDB to BigQuery",
+        "parameters": {
+            "mongo_uri": {"type": "TEXT", "label": "MongoDB URI"},
+            "database": {"type": "TEXT", "label": "MongoDB Database"},
+            "collection": {"type": "TEXT", "label": "MongoDB Collection"},
+            "output_table": {"type": "TEXT", "label": "BigQuery Table"}
+        }
+    }
+}
