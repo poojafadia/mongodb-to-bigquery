@@ -1,5 +1,5 @@
 {
-    "image": "gcr.io/<your_project_id>/mongo-to-bigquery",
+    "image": "gcr.io/skilful-asset-442412-i5/mongo-to-bigquery",
     "metadata": {
         "name": "mongo-to-bigquery",
         "description": "A pipeline to migrate data from MongoDB to BigQuery",
